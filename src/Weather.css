@@ -1,0 +1,25 @@
+.btn-light {
+  transition: color 0.5s ease-in-out;
+}
+
+.h-100 {
+  border-radius: 15px;
+
+  transition: 0.3s;
+}
+
+.h-100:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.forecast-container {
+  margin-top: 20px;
+}
+
+.forecast-item {
+  margin-bottom: 10px;
+}
+
+.row {
+  align-items: normal !important;
+}

@@ -63,10 +63,10 @@ const SearchBar = ({ onSearch }) => {
     const inputValue = e.target.value;
     setCity(inputValue);
 
-    // Cancella il timer precedente
+    
     clearTimeout(timerId);
 
-    // Imposta un nuovo timer per ritardare l'invio della richiesta di suggerimenti
+    
     timerId = setTimeout(() => {
       if (inputValue.length >= 3) {
         fetchCitySuggestions(inputValue);
@@ -79,9 +79,8 @@ const SearchBar = ({ onSearch }) => {
 
   const handleSuggestionClick = (suggestedCity) => {
     setCity(suggestedCity);
-    // Non svuotare la lista dei suggerimenti quando viene cliccato un suggerimento
     setErrorMessage('');
-    setSuggestions([]); // Rimuove la lista dei suggerimenti
+    setSuggestions([]); 
     navigate(`/weather/${suggestedCity}`);
   };
 

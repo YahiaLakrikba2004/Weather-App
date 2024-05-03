@@ -51,7 +51,7 @@ const Weather = () => {
         setWeeklyForecast(forecastData);
       } catch (error) {
         console.error('Error fetching data:', error);
-        // Gestione degli errori: mostra un messaggio all'utente
+      
       } finally {
         setLoading(false);
       }

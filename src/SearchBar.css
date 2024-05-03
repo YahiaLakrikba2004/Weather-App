@@ -1,4 +1,3 @@
-/* Rende la barra di ricerca più grande e più facile da vedere */
 .search-bar {
   width: 100%;
   padding: 15px;
@@ -10,17 +9,14 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Stili per l'input-group */
 .input-group {
   position: relative;
 }
 
-/* Stili per l'input della barra di ricerca */
 .input-group .form-control {
   width: 100%;
 }
 
-/* Stili per il pulsante di ricerca */
 .input-group .btn-primary {
   position: absolute;
   right: 0;
@@ -28,14 +24,12 @@
   height: 100%;
 }
 
-/* Stili per il messaggio di errore */
 .error-message {
   color: red;
   font-size: 0.875rem;
   margin-top: 10px;
 }
 
-/* Stili per i suggerimenti */
 .suggestions {
   margin-top: 10px;
   background-color: #fff;
